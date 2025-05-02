@@ -1,0 +1,20 @@
+| **Data Type**        | **Size (Bytes)** | **Range/Description**                                                        | **Example**                     |
+| -------------------- | ---------------- | ---------------------------------------------------------------------------- | ------------------------------- |
+| **`long long`**      | 8                | 64-bit signed integer.                                                       | `long long x = 123456789;`      |
+| **`long`**           | 4 / 8            | 32/64-bit signed integer.                                                    | `long x = 1234567;`             |(depends on the system)
+| **`int`**            | 4                | 32-bit signed integer.                                                       | `int x = 123456;`               |
+| **`short`**          | 2                | 16-bit signed integer.                                                       | `short x = 12345;`              |
+| **`char`**           | 1                | 8-bit signed character (can represent characters as well as small integers). | `char x = 'A';`                 |
+| **`float`**          | 4                | 32-bit floating-point number (precision up to 7 decimal places).             | `float x = 3.14159;`            |
+| **`double`**         | 8                | 64-bit floating-point number (precision up to 15 decimal places).            | `double x = 3.141592653;`       |
+| **`signed char`**    | 1                | 8-bit signed integer (-128 to 127).                                          | `signed char x = -100;`         |
+| **`unsigned char`**  | 1                | 8-bit unsigned integer (0 to 255).                                           | `unsigned char x = 200;`        |
+| **`unsigned short`** | 2                | 16-bit unsigned integer (0 to 65535).                                        | `unsigned short x = 65535;`     |
+| **`unsigned int`**   | 4                | 32-bit unsigned integer (0 to 2^32-1).                                       | `unsigned int x = 12345678;`    |
+| **`long long int`**  | 8                | 64-bit signed integer. Equivalent to `long long`.                            | `long long int x = 9876543210;` |
+| **`const`**          | Varies           | Constant values that cannot be changed once defined.                         | `const int x = 10;`             |
+
+
+Signed: Can store both negative and positive numbers.
+Unsigned: Can only store positive numbers and zero.
+
