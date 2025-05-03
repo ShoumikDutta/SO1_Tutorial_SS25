@@ -2,7 +2,7 @@
   Name: Shoumik Dutta  /
   Date: 02.05.2025
 
-  Topic: Data type, Flow controll, Understanding Error(s), Functions
+  Topic: Data type, Flow control, Understanding Error(s)
   Based on: Lecture Code
   Dependencies: N/A
 */
