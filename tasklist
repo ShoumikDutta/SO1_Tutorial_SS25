@@ -1,0 +1,128 @@
+
+
+1. Array Operations (4×7 2D Array)
+1.a Calculate Weekly Averages
+Write a function:
+```c
+void calculate_weekly_averages(double temps[4][7], double weekly_avg[4]);
+```
+- Takes a 4×7 array of temperatures
+- Computes average temperature for each week
+- Stores results in `weekly_avg` array
+
+1.b Scale Weekly Temperatures
+Write a function:
+```c
+void scale_weekly_temperatures(double temps[4][7], double factor);
+```
+- Multiplies all temperatures by scaling factor 10%
+
+2. String Processing
+2.a Count Vowels
+Write a function:
+```c
+int count_vowels(const char str[][MAX_STR_LEN]);
+```
+- Counts vowels (a,e,i,o,u) case-insensitive
+- Returns vowel count
+
+2.b Reverse String
+Write a function:
+```c
+void reverse_string(char str[][MAX_STR_LEN]);
+```
+- Reverses the string in-place
+- No additional memory allocation
+
+### **3. Input Validation**
+#### **3.a Validate Temperature**
+Write a function:
+```c
+double get_valid_temperature(void);
+```
+- Repeatedly prompts until valid input (-50.0 to 50.0)
+- Returns validated temperature
+
+
+
+
+#### **3.b Read 4 Weeks of Data**
+Write a function:
+```c
+void read_four_weeks_temperatures(double temps[4][7]);
+```
+- Uses `get_valid_temperature()`
+- Fills 4×7 array with user input
+
+## **Requirements**
+1. Use **only 2D arrays** (no pointers)
+2. Define constants:
+   ```c
+   #define WEEKS 4
+   #define DAYS_PER_WEEK 7
+   #define MAX_STR_LEN 100
+   #define MIN_TEMP -50.0
+   #define MAX_TEMP 50.0
+   ```
+3. Include all necessary headers
+4. Write a main() function to test all features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## **Sample Output**
+```
+Weekly Averages:
+Week 1: 20.7°C
+Week 2: 19.4°C
+Week 3: 22.5°C
+Week 4: 16.7°C
+
+Scaled Temperatures (+10%):
+Week 1: 22.1 23.4 21.8 24.6 25.3 20.6 21.9
+Week 2: 19.3 18.5 20.0 22.6 23.2 24.5 21.3
+Week 3: 26.0 26.6 27.5 25.0 24.1 22.6 21.8
+Week 4: 20.8 19.4 18.2 17.4 16.4 17.8 18.8
+
+Vowels in "HelloWorld": 3
+Reversed: dlroWolleH
+
+Enter temperatures for Week 1:
+Day 1: 20.0
+Day 2: 21.5
+
+
